@@ -9,7 +9,7 @@ serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
 })
 let Zeile_seriell = ""
 let id = 0
-id = 1
+id = 0
 basic.forever(function () {
     basic.clearScreen()
     if (id == 1) {
